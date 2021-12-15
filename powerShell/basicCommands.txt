@@ -1,0 +1,2 @@
+get-location,gl -->current location
+set-location
