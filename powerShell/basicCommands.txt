@@ -1,6 +1,10 @@
-get-location,gl -->current location
+get-location/gl -->current location
 set-location :\C
 cd .. -->previous directory
 move-item,mi - mi filename destination
 ls - list
 filename - opens file
+
+ni/new-item test2.txt --> creates new file inside current directory
+ri/remove-item test3.txt ---> removes file
+get-command ---> gets all the commands
