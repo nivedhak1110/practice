@@ -1,0 +1,54 @@
+Create file
+Touch, vi
+
+Copy file
+cp filename directory/destfilaname
+cp file1 file2 test/
+
+Move filename  dir/filename  |  rename file
+mv file2 karthik
+
+Change permission
+chmod +x filename
+R - read
+W - write
+x - excute
+
+chmod +x filename
+
+List files
+ls 
+ls -ltrh
+
+Create directory
+mkdir dir-name
+
+Copy directory
+cp -r direname dest-name
+
+Move/rename folder
+mv  dirhame surname
+
+Tar files
+tar -czf nivedha.tar.gz file newfile newfile3
+
+Untar file
+Tar -xf tarfilename.tar.gz 
+tar -xf nivedha.tar.gz 
+
+Grep command
+Grep “string” filename
+Grep -r “string” .  -> search in directory
+
+
+Find command
+Find
+find ./GFG -name sample.txt 
+
+
+Ssh 
+ssh root@ip
+
+scp
+scp source destination
+scp filename root@10.195.100.217:/home/
