@@ -1,2 +1,6 @@
 get-location,gl -->current location
-set-location
+set-location :\C
+cd .. -->previous directory
+move-item,mi - mi filename destination
+ls - list
+filename - opens file
