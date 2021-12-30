@@ -8,3 +8,17 @@ filename - opens file
 ni/new-item test2.txt --> creates new file inside current directory
 ri/remove-item test3.txt ---> removes file
 get-command ---> gets all the commands
+
+*****************
+
+Networkind commands:
+Verify the network configuration is correct- Get-NetIPAddress-ipconfig
+
+Identify the network path between hosts-Test-NetConnection -TraceRoute-tracert
+
+See if the remote host responds-Test-NetConnection-ping
+
+Test the service on a remote host- Test-NetConnection -Port- Telnet
+
+See if the default gateway responds-Test-NetConnection-ping
+
