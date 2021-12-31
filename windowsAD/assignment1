@@ -32,10 +32,12 @@ Security is integrated with Active Directory through logon authentication and ac
 With a single network logon, administrators can manage directory data and organization throughout their network, and authorized network users can access resources anywhere on the network. 
 
 Active Directory also includes:
+Fundamental AD features and capabilities include:
+A schema that defines the classes of objects and attributes contained in the directory.
+A global catalog that contains detailed information about every object in the directory.
+A query and index mechanism that allows users, administrators, and applications to efficiently find directory information.
+A replication service that disseminates directory data across the network.
 
-A set of rules, the schema, that defines the classes of objects and attributes contained in the directory, the constraints and limits on instances of these objects, and the format of their names.
-A global catalog that contains information about every object in the directory. This allows users and administrators to find directory information regardless of which domain in the directory actually contains the data.  
-A query and index mechanism, so that objects and their properties can be published and found by network users or applications.
 
 AD is made up of a number of different directory services, including:
 Active Directory Domain Services (AD DS) – the core Active Directory service used to manage users and resources.
@@ -43,3 +45,24 @@ Active Directory Lightweight Directory Services (AD LDS) – a low-overhead vers
 Active Directory Certificate Services (AD CS) – for issuing and managing digital security certificates.
 Active Directory Federation Services (AD FS) – for sharing identity and access management information across organizations and enterprises.
 Active Directory Rights Management Services (AD RMS) – for information rights management (controlling access permissions to documents, workbooks, presentations, etc.)
+
+AD Data Structures
+Active Directory stores information about network users (names, phone numbers, passwords, etc.) and resources (servers, storage volumes, printers, etc.) in a hierarchical structure consisting of domains, trees, and forests.
+
+A domain is a collection of objects (e.g. users, devices) that share the same Active Directory database. A domain is identified by a DNS name like company.com.
+A tree is a collection of one or more domains with a contiguous namespace (they have a common DNS root name like marketing.company.com, engineering.company.com, and sales.company.com).
+A forest is a collection of one or more trees that share a common schema, global catalog, and directory configuration—but aren’t part of a contiguous namespace. The forest typically serves as the security boundary for an enterprise network.
+
+ORGANIZATIONAL UNITS:
+Objects within a domain can be grouped into organizational units (OUs) to simplify administration and policy management. 
+
+
+
+*****************
+VPN stands for Virtual Private Network (VPN), that allows a user to connect to a private network over the Internet securely and privately. VPN creates an encrypted connection that is called VPN tunnel, and all Internet traffic and communication is passed through this secure tunnel.
+Virtual Private Network (VPN) is basically of 2 types:
+
+1. Remote Access VPN: Remote Access VPN permits a user to connect to a private network and access all its services and resources remotely. The connection between the user and the private network occurs through the Internet and the connection is secure and private. Remote Access VPN is useful for home users and business users both.An employee of a company, while he/she is out of station, uses a VPN to connect to his/her company’s private network and remotely access files and resources on the private network. Private users or home users of VPN, primarily use VPN services to bypass regional restrictions on the Internet and access blocked websites. Users aware of Internet security also use VPN services to enhance their Internet security and privacy.  
+2. Site to Site VPN: A Site-to-Site VPN is also called as Router-to-Router VPN and is commonly used in the large companies. Companies or organisations, with branch offices in different locations, use Site-to-site VPN to connect the network of one office location to the network at another office location. 
+    * Intranet based VPN: When several offices of the same company are connected using Site-to-Site VPN type, it is called as Intranet based VPN.
+    * Extranet based VPN: When companies use Site-to-site VPN type to connect to the office of another company, it is called as Extranet based VPN.  Basically, Site-to-site VPN create a imaginary bridge between the networks at geographically distant offices and connect them through the Internet and sustain a secure and private communication between the networks. In Site-to-site VPN one router acts as a VPN Client and another router as a VPN Server as it is based on Router-to-Router communication. When the authentication is validated between the two routers only then the communication starts. 
