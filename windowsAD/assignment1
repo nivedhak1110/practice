@@ -47,6 +47,8 @@ Active Directory Federation Services (AD FS) – for sharing identity and access
 Active Directory Rights Management Services (AD RMS) – for information rights management (controlling access permissions to documents, workbooks, presentations, etc.)
 
 AD Data Structures
+https://www.softwaretestinghelp.com/wp-content/qa/uploads/2021/03/Structure-of-Active-Directory.png
+
 Active Directory stores information about network users (names, phone numbers, passwords, etc.) and resources (servers, storage volumes, printers, etc.) in a hierarchical structure consisting of domains, trees, and forests.
 
 A domain is a collection of objects (e.g. users, devices) that share the same Active Directory database. A domain is identified by a DNS name like company.com.
