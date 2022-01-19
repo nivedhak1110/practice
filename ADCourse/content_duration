@@ -19,6 +19,8 @@ section 1 initial setup:
 7. Initial server setup
 4min
 
+section2 : Active Directory :
+-----------------------------
 8. Differences between Workgroups and Domains
 4min
 
@@ -83,6 +85,8 @@ section 1 initial setup:
 28. If the domain controller goes down, the second one automatically takes over?
 2min
 
+section 3: Group policy object
+-------------------------------
 29. GPO - Introduction
 2min
 
@@ -162,6 +166,8 @@ section 1 initial setup:
 54. Installing Windows Admin Center
 2min
 
+section 4: Admin center/RSAT/Remote Acess/Audit
+-----------------------------------------------
 55. Using Windows Admin Center
 3min
 
@@ -183,6 +189,8 @@ section 1 initial setup:
 61. File Auditing
 4min
 
+section5 : windows server update (WSUS)
+--------------------------------------
 62. Setting Date and Time for Updates
 3min
 
@@ -198,6 +206,8 @@ section 1 initial setup:
 66. Creating the GPO for intranet updates
 4min
 
+sectoin6: file server
+---------------------
 67. Creating disk space usage quotas
 5min
 
@@ -234,6 +244,8 @@ section 1 initial setup:
 78. Web Server (IIS) instalation
 3min
 
+section7: web server IIS /DNS
+-----------------------------
 79. Configuring the site files
 3min
 
@@ -252,6 +264,8 @@ section 1 initial setup:
 84. Forwarders
 2min
 
+section8: mail server:
+---------------------
 85. .NET Framework instalation
 3min
 
@@ -267,6 +281,8 @@ section 1 initial setup:
 89. Testing the email server
 4min
 
+section 9: DHCP
+---------------
 90. Introduction and installation
 4min
 
