@@ -1,0 +1,272 @@
+Course content
+1. Programs and files needed
+3min
+
+3. Creating a virtual machine
+7min
+
+4. Installing Windows Server 2019
+4min
+
+5. Guest additions software
+2min
+
+6. Installing Windows 10
+4min
+
+7. Initial server setup
+4min
+
+8. Differences between Workgroups and Domains
+4min
+
+9. Installing Active Directory
+3min
+
+
+10. Understanding Domain Structure
+3min
+
+11. Creating a new forest
+7min
+
+12. Creating organizational units
+6min
+
+13. Creating a new domain user
+4min
+
+14. Adding a computer to the domain
+10min
+
+15. Removing the local user
+4min
+
+16. Password without complexity
+7min
+
+17. Password without complexity applied to a user group
+5min
+
+18. Active Directory Recycle Bin
+3min
+
+19. Creating users via PowerShell
+7min
+
+20. Creating a large number of users via csv file
+5min
+
+21. Restricting logon at specific times and days
+3min
+
+22. Restricting Logon to Computers
+6min
+
+23. Mapping Shared Folders
+5min
+
+24. Mapping the Personal Folder
+7min
+
+25. Startup script
+7min
+
+26. Adding a New Server to the Domain
+2min
+
+27. Additional Domain Controller
+6min
+
+28. If the domain controller goes down, the second one automatically takes over?
+2min
+
+29. GPO - Introduction
+2min
+
+30. Folder Mapping via GPO
+3min
+
+31. Private Mapping
+5min
+
+32. Disallow / Allow Control Panel Access
+3min
+
+33. Disable GPO for Administrators and / or User Groups
+1min
+
+34. Custom wallpaper
+3min
+
+35. Account lockout and security policies
+4min
+
+36. Creating local folders and copying files
+3min
+
+
+37. Mapping printers via GPO
+3min
+
+38. Deny logon locally
+3min
+
+39. GPO software installation
+6min
+
+40. How to know if group policies have been applied correctly?
+2min
+
+41. Differentiating Installations Between Operating Systems and Architectures
+9min
+
+42. Performing installations using external software
+4min
+
+43. Installing Libre Office via PDQ Deploy
+3min
+
+44. Installing Office 365: Downloading the Installation Files
+6min
+
+45. Installing Office 365: Creating the Scripts for Installation
+4min
+
+46. Installing Office 365: Performing GPO Installation (32-BIT)
+6min
+
+47. Installing Office 365: Performing GPO Installation (64-BIT)
+4min
+
+48. Example of installing Office 365 via PDQ Deploy
+4min
+
+49. Applocker
+7min
+
+50. Disabling Task Manager Access
+2min
+
+51. Group Policy Objects
+2min
+
+52. Group Policy Backup
+2min
+
+53. Restore Group Policies
+2min
+
+54. Installing Windows Admin Center
+2min
+
+55. Using Windows Admin Center
+3min
+
+56. RSAT
+2min
+
+57. Remote access
+2min
+
+58. Remote Access via Microsoft Remote Desktop App.
+2min
+
+59. Delegation
+3min
+
+60. Login / Logout Audit
+2min
+
+61. File Auditing
+4min
+
+62. Setting Date and Time for Updates
+3min
+
+63. Installing a new Virtual Disk
+3min
+
+64. Installing Windows Server Update Services
+2min
+
+65. Configuring Windows Server Update Services
+5min
+
+66. Creating the GPO for intranet updates
+4min
+
+67. Creating disk space usage quotas
+5min
+
+68. File Screening
+4min
+
+69. Storage Reports
+3min
+
+70. Scheduled Report
+3min
+
+71. DFS Namespace
+6min
+
+72. DFS Replication
+10min
+
+73. Testing Replication
+1min
+
+74. Creating a backup of files and folders
+4min
+
+75. Restoring backup
+3min
+
+76. Server Backup
+3min
+
+77. Full Server Restore
+4min
+
+78. Web Server (IIS) instalation
+3min
+
+79. Configuring the site files
+3min
+
+80. DNS pointer record
+4min
+
+81. New DNS Primary Zone
+3min
+
+82. More than one site per web server
+6min
+
+83. Reverse DNS
+5min
+
+84. Forwarders
+2min
+
+85. .NET Framework instalation
+3min
+
+86. Hmail instalation
+2min
+
+87. Creating email accounts
+2min
+
+88. Firewall settings
+3min
+
+89. Testing the email server
+4min
+
+90. Introduction and installation
+4min
+
+91. Creating a scope
+5min
