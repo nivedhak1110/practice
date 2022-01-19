@@ -1,0 +1,226 @@
+course description :
+----------------------
+Create and use virtual machines
+
+Install Microsoft Windows Server 2019
+
+Create a Windows domain
+
+Install and configure a domain controller using Active Directory
+
+Create and organize objects such as users, organizational units, user groups, computers, and printers using Active Directory and Group Policy (GPO)
+
+Block certain users from using computers on the network using Active Directory and Group Policy (GPO)
+
+Determine which day and time users can login using Active Directory and Group Policy (GPO)
+
+Map folders automatically using Active Directory and Group Policy (GPO)
+
+Create and manage group policies (GPO) of station users to restrict certain actions that may pose potential security risks, such as blocking access to the task manager, restricting access to certain folders, disabling the download of executable files.
+
+Remote Server Access
+
+Audit logons and shared files
+
+****************************
+Course content
+
+section 1 initial setup:
+------------------------
+1. Programs and files needed
+
+3. Creating a virtual machine
+
+4. Installing Windows Server 2019
+
+5. Guest additions software
+
+6. Installing Windows 10
+
+7. Initial server setup
+
+section2 : Active Directory :
+-----------------------------
+8. Differences between Workgroups and Domains
+
+9. Installing Active Directory
+
+10. Understanding Domain Structure
+
+11. Creating a new forest
+
+12. Creating organizational units
+
+13. Creating a new domain user
+
+14. Adding a computer to the domain
+
+15. Removing the local user
+
+16. Password without complexity
+
+17. Password without complexity applied to a user group
+
+18. Active Directory Recycle Bin
+
+19. Creating users via PowerShell
+
+20. Creating a large number of users via csv file
+
+21. Restricting logon at specific times and days
+
+22. Restricting Logon to Computers
+
+23. Mapping Shared Folders
+
+24. Mapping the Personal Folder
+
+25. Startup script
+
+26. Adding a New Server to the Domain
+
+27. Additional Domain Controller
+
+28. If the domain controller goes down, the second one automatically takes over?
+
+section 3: Group policy object
+-------------------------------
+29. GPO - Introduction
+
+30. Folder Mapping via GPO
+
+31. Private Mapping
+
+32. Disallow / Allow Control Panel Access
+
+33. Disable GPO for Administrators and / or User Groups
+
+34. Custom wallpaper
+
+35. Account lockout and security policies
+
+36. Creating local folders and copying files
+
+37. Mapping printers via GPO
+
+38. Deny logon locally
+
+39. GPO software installation
+
+40. How to know if group policies have been applied correctly?
+
+41. Differentiating Installations Between Operating Systems and Architectures
+
+42. Performing installations using external software
+
+43. Installing Libre Office via PDQ Deploy
+
+44. Installing Office 365: Downloading the Installation Files
+
+45. Installing Office 365: Creating the Scripts for Installation
+
+46. Installing Office 365: Performing GPO Installation (32-BIT)
+
+47. Installing Office 365: Performing GPO Installation (64-BIT)
+
+48. Example of installing Office 365 via PDQ Deploy
+
+49. Applocker
+
+50. Disabling Task Manager Access
+
+51. Group Policy Objects
+
+52. Group Policy Backup
+
+53. Restore Group Policies
+
+section 4: Admin center/RSAT/Remote Acess/Audit
+-----------------------------------------------
+54. Installing Windows Admin Center
+
+55. Using Windows Admin Center
+
+56. RSAT
+
+57. Remote access
+
+58. Remote Access via Microsoft Remote Desktop App.
+
+59. Delegation
+
+60. Login / Logout Audit
+
+section5 : windows server update (WSUS)
+--------------------------------------
+61. File Auditing
+
+62. Setting Date and Time for Updates
+
+63. Installing a new Virtual Disk
+
+64. Installing Windows Server Update Services
+
+65. Configuring Windows Server Update Services
+
+66. Creating the GPO for intranet updates
+
+sectoin6: file server
+---------------------
+67. Creating disk space usage quotas
+
+68. File Screening
+
+69. Storage Reports
+
+70. Scheduled Report
+
+71. DFS Namespace
+
+72. DFS Replication
+
+73. Testing Replication
+
+74. Creating a backup of files and folders
+
+75. Restoring backup
+
+76. Server Backup
+
+77.full server restore
+
+section7: web server IIS /DNS
+-----------------------------
+78. Web Server (IIS) instalation
+
+79. Configuring the site files
+
+80. DNS pointer record
+
+81. New DNS Primary Zone
+
+82. More than one site per web server
+
+83. Reverse DNS
+
+84. Forwarders
+
+section8: mail server:
+---------------------
+
+85. .NET Framework instalation
+
+86. Hmail instalation
+
+87. Creating email accounts
+
+88. Firewall settings
+
+89. Testing the email server
+
+section 9: DHCP
+---------------
+
+90. Introduction and installation
+
+91. Creating a scope
