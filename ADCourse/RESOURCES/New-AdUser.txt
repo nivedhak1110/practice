@@ -1,0 +1,9 @@
+New-ADUser -name 'Michael Jordan' -SamAccountName jordan.michael -UserPrincipalName jordan.michael@mybusiness.local -Path "OU=Users,OU=Administration,DC=mybusiness,DC=local" -AccountPassword (ConvertTo-SecureString -AsPlainText 'Password123' -force) -Enabled $true -ChangePasswordAtLogon $true
+
+
+
+
+More Information
+=================
+
+https://docs.microsoft.com/en-us/powershell/module/addsadministration/new-aduser
