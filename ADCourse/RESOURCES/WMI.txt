@@ -1,0 +1,29 @@
+64-bit
+select * from Win32_OperatingSystem WHERE OSArchitecture = "64-bit" AND ProductType="1"
+
+32-bit
+select * from Win32_OperatingSystem WHERE OSArchitecture = "32-bit" AND ProductType="1"
+
+Windows 10 
+select Version from Win32_OperatingSystem WHERE Version like "10.%" AND ProductType="1"
+
+
+Windows 7, 8 and 8.1 
+select Version from Win32_OperatingSystem WHERE Version like "6.%" AND ProductType=”1″ AND OSArchitecture = “64-bit”
+select Version from Win32_OperatingSystem WHERE Version like "6.%" AND ProductType=”1″ AND NOT OSArchitecture = “64-bit”
+select Version from Win32_OperatingSystem WHERE Version like "6.%" AND ProductType=”1″
+
+Windows 8.1
+select Version from Win32_OperatingSystem WHERE Version like “6.3%” AND ProductType=”1″ AND OSArchitecture = “64-bit”
+select Version from Win32_OperatingSystem WHERE Version like “6.3%” AND ProductType=”1″ AND NOT OSArchitecture = “64-bit”
+select Version from Win32_OperatingSystem WHERE Version like “6.3%” AND ProductType=”1″
+
+Windows 8
+select Version from Win32_OperatingSystem WHERE Version like "6.2%” AND ProductType=”1″ AND OSArchitecture = “64-bit”
+select Version from Win32_OperatingSystem WHERE Version like "6.2%" AND ProductType=”1″ AND NOT OSArchitecture = “64-bit”
+select Version from Win32_OperatingSystem WHERE Version like "6.2%" AND ProductType=”1″
+
+Windows 7
+select Version from Win32_OperatingSystem WHERE Version like "6.1%" AND ProductType="1" AND OSArchitecture = "64-bit"
+select Version from Win32_OperatingSystem WHERE Version like "6.1%" AND ProductType="1" AND NOT OSArchitecture = "64-bit"
+select Version from Win32_OperatingSystem WHERE Version like "6.1%" AND ProductType="1"
