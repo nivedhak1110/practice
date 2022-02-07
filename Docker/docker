@@ -1,0 +1,20 @@
+Docker
+———
+Build docker image of your app 
+Run docker image
+Access it from browser
+Advantage of docker
+Problem with docker
+
+Need of Orchestrator - kubernetes
+
+Master components ( v basic)
+Master & worker nodes
+Single node cluster 
+Install minikube
+Simple practice on Yaml
+What is POD , service
+Run your app as POD in k8s
+Replicas
+Deployments
+Namespace
